@@ -1,4 +1,4 @@
-KC is an user. Who carry his 23andME data. His wondering, what's wrong with his gene sequence. However, he does not have porfessional background(brginner).
+KC is an user. Who carrys his 23andME data. He is wondering, what's wrong with his gene sequence. However, he does not have porfessional background(brginner).
 Hence, we provide a tool for him to check wether he has any gene defect, and with direct score and kind interface.
 
 
@@ -7,4 +7,4 @@ Therefore, he needs a tool to check his clinet's gene sequence. Then he can tell
 Also, without waiting for a long time to have the result, especially normally they do have to turn thir gene sequence to some profeccional companies to interpret it.
 
 
-Doc.Wang, he is a researcher. He want to confrim his research outcome does math the reality. Hence, he uses this tool to check it. Their skill level is a Phd student. 
+Doc.Wang, he is a researcher. He want to confrim his research outcome does math the reality. Hence, he uses this tool to check it. His skill level is a Phd student. 
