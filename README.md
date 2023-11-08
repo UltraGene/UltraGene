@@ -6,6 +6,10 @@ List of Team Members and affiliations:
 - Dana
 - Zi
 
+## Documentation 
+
+[UltraGene Documentation](https://github.com/UltraGene/ultragene.github.io)
+
 ## Project Goals 
 
 The goal of this project is to ... 
