@@ -6,7 +6,7 @@
     <br>
     <br>
     <br>
-    <img width="50%" alt="q1" src="welcome-1.gif">
+    <img width="30%" alt="q1" src="welcome-1.gif">
     <br>
     <br>
     <br>
