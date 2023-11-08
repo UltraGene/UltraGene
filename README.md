@@ -1,7 +1,6 @@
-
 # UltraGene
 
-List of Team Members and affilications:
+List of Team Members and affiliations:
 - CO | PhD Genetics @ University of Washington 
 - KC 
 - Dana
@@ -11,17 +10,14 @@ List of Team Members and affilications:
 
 The goal of this project is to ... 
 
-
-## Aproach 
+## Approach 
 ...
 
-## File Drescriptions 
+## File Descriptions 
 ...
-
 
 ## Results 
 ...
-
 
 ## Conclusions 
 ...
