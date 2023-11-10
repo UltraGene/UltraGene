@@ -56,15 +56,10 @@ expanded_data.to_csv('Cleaned_23andMe.csv', index=False)
 print(expanded_data.head())
 
 # Renaming the 'genotype' column to 'Ref' and creating the 'Alt' column
-expanded_data.rename(columns={'genotype': 'Ref'}, inplace=True)
+expanded_data.rename(columns={'genotype': 'Alt'}, inplace=True)
 
-# Function to pair the genotype
-def pair_genotype(genotype):
-    pairing = {'A': 'T', 'T': 'A', 'C': 'G', 'G': 'C'}
-    return pairing.get(genotype, '')
-
-# Applying the function to create the 'Alt' column
-expanded_data['Alt'] = expanded_data['Ref'].apply(pair_genotype)
+# Sort the dataframe by the first column
+expanded_data = expanded_data.sort_values(by=expanded_data.columns[0])
 
 # Saving the updated data to a new CSV file
 expanded_data.to_csv('Cleaned_23andMe.csv', index=False)
