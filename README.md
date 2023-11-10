@@ -12,6 +12,8 @@ List of Team Members and affiliations:
 
 ## Project Goals 
 
+For more background and context see lecture [Understanding the Functional Effects of Genetic Variation At Scale](https://youtu.be/ChzOPm1-YfI?t=350)
+
 UltraGene tackles a significant challenge in precision genomic medicine: the limited understanding of the functions of most human genetic variants. A large number of genetic variants found in clinical settings are categorized as Variants of Uncertain Significance (VUS), creating obstacles in clinical decision-making due to their unclear association with diseases. This problem is particularly severe for individuals from underrepresented research populations, thereby intensifying existing healthcare inequities.
 
 The aim of this project is to enhance the clinical utility of precision genomic medicine.
