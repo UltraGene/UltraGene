@@ -1,3 +1,12 @@
+<h1 align="center">🧬🔍 UltraGene</h1>
+
+<p align="center">
+    <b>Tool for Advanced DNA Mutational Signature Scannning for Precision Medicine</b>
+    <br><br>
+    <img src="misc/dna1.gif" alt="DNA Animation" style="width: 40%; margin: auto; display: block;">
+</p>
+
+
 # UltraGene
 
 List of Team Members and affiliations:
