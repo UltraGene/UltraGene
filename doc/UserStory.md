@@ -1,5 +1,5 @@
-KC is an user. Who carrys his 23andME data. He is wondering, what's wrong with his gene sequence. However, he does not have porfessional background(brginner).
-Hence, we provide a tool for him to check wether he has any gene defect, and with direct score and kind interface.
+User Story 1: KC, the Curious Individual
+KC is an individual curious about his genetic makeup. He possesses his 23andMe data and is keen to understand the nuances of his gene sequence. However, his knowledge in this field is limited, as he is a beginner. Our tool offers him a user-friendly solution to identify potential genetic defects. It provides a clear, direct score and a kind, intuitive interface, empowering KC to gain insights into his genetic information without needing a professional background.
 
 
 Doc.Suse, he is a family doctor. He needs to explain their clinet's gene. Eventhough, they do have some background, but not so professional.
