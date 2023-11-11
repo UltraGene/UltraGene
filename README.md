@@ -1,10 +1,11 @@
-<h1 align="center">🧬🔍 UltraGene</h1>
+<h1 align="center" style="color: white; background-color: black; padding: 10px;">🧬 UltraGene</h1>
 
 <p align="center">
-    <b>Tool for Advanced DNA Mutational Signature Scannning for Precision Medicine</b>
+    <b>Tool for Advanced DNA Mutational Signature Scanning for Precision Medicine</b>
     <br><br>
-    <img src="misc/dna1.gif" alt="DNA Animation" style="width: 40%; margin: auto; display: block;">
+    <img src="misc/dna1.gif" alt="DNA Animation" style="width: 60%; margin: auto; display: block;">
 </p>
+
 
 
 # UltraGene
