@@ -1,3 +1,37 @@
+'''
+This script is designed for processing JSON files containing genetic data and consolidating them into a single CSV file. 
+It's structured to be used as a command-line tool. Here's an explanation of its components and functionality:
+
+1. **Imports:**
+   - `pandas` (as `pd`): Used for data manipulation and analysis.
+   - `json`: To read JSON files.
+   - `glob`: For file path pattern matching.
+   - `pathlib.Path`: For handling filesystem paths in an object-oriented way.
+   - `argparse`: For parsing command-line arguments.
+
+2. **`process_json_files` Function:**
+   - Purpose: Processes all JSON files in a specified directory.
+   - `directory_path`: A `Path` object representing the directory containing JSON files.
+   - `json_files`: Uses `glob` to find all files ending with `.json` in the specified directory.
+   - `dataframes`: A list to accumulate data extracted from each JSON file.
+   - Iterates over each JSON file:
+     - Opens and reads the file.
+     - If the file's root is a dictionary, it's converted into a list (to standardize the data structure).
+     - `pd.json_normalize`: Flattens the JSON data into a pandas DataFrame.
+     - Extracts `gene_name` from the 'targetGene.name' column, if available.
+     - Checks for the 'mapped_scores' column. If present and not entirely null:
+       - Iterates over each item in 'mapped_scores' (assumed to be a list of dictionaries).
+       - Constructs a dictionary for each item with specific values extracted from nested structures.
+       - These dictionaries are used to create a DataFrame (`df_extracted`) which is appended to `dataframes`.
+   - Error Handling: Catches and prints exceptions that occur during file processing.
+   - After all files are processed, concatenates all DataFrames in `dataframes` and writes the result to a CSV file.
+
+3. **How to Use the Script:**
+   - Run the script from the command line, providing the path to the directory containing the JSON files as an argument.
+   - Example: `python get_mave_scores.py ../path/to/json_files/`
+
+'''
+
 import pandas as pd
 import json
 import glob
