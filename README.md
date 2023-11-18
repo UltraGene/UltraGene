@@ -3,7 +3,7 @@
 <p align="center">
     <b>Tool for Advanced DNA Mutational Signature Scanning for Precision Medicine</b>
     <br><br>
-    <img src="misc/dna1.gif" alt="DNA Animation" style="width: 60%; margin: auto; display: block;">
+    <img src="img/dna1.gif" alt="DNA Animation" style="width: 60%; margin: auto; display: block;">
 </p>
 
 
