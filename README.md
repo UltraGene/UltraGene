@@ -38,7 +38,12 @@ This multifaceted approach is designed to provide a more comprehensive understan
 ## Approach 
 ...
 
-## File Descriptions 
+## Analysis of MaveDB, AlphaMissense, OMIM
+
+To process the raw data, we use:
+
+* MaveDB script ([ultragene/analysis/get_mave_scores.py](https://github.com/UltraGene/UltraGene/blob/main/analysis/get_mave_scores.py))
+
 ...
 
 ## Results 
