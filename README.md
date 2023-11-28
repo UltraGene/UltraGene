@@ -36,7 +36,8 @@ Individuals will be able to upload their genetic data to be checked against:
 This multifaceted approach is designed to provide a more comprehensive understanding of genetic variants, particularly VUS, thereby facilitating more informed clinical decisions and contributing to more equitable and effective genomic medicine practices.
 
 ## Approach 
-...
+We clean and rearrange MaveDB and Alpha data. Users will upload their **23andMe** data. After doing so, the streamlit app will match with MaveDB and Alpha dataset. Then, it will generate two datasheets. One called "df_23DB" which represents user DNA matches with the MaveDB, another datasheet called "df_23Alpha", representing user DNA matches with the Alpha data. Then it will be displayed on the visualize pages. Also, there will be another datasheet called "common_position.csv" which contains the positions that users both match with MaveDB and Alpha. Which suggested is the most dangerous DNA position.
+
 
 ## Analysis of MaveDB, AlphaMissense, OMIM
 
