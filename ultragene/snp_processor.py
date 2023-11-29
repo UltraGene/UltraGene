@@ -1,3 +1,15 @@
+"""
+This module provides functionality to process and validate SNP (Single Nucleotide Polymorphism)
+data from 23andMe files.
+
+Functions:
+    validate_and_load_snp_data(file_path): Process and validate SNP data from a 23andMe file.
+
+Example usage:
+    Run this script directly with a path to a 23andMe data file to load and validate the data, 
+    then print the first few rows of the resulting DataFrame.
+"""
+
 import pandas as pd
 
 def validate_and_load_snp_data(file_path):
