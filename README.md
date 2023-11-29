@@ -45,14 +45,15 @@ To process the raw data, we use:
 
 * MaveDB script ([ultragene/analysis/get_mave_scores.py](https://github.com/UltraGene/UltraGene/blob/main/analysis/get_mave_scores.py))
 
-...
+* AlphaMissense (https://console.cloud.google.com/storage/browser/dm_alphamissense;tab=objects?prefix=&forceOnObjectsSortingFiltering=false)
 
 ## Results 
-...
+
+Decent outcomes. Workes pretty well with input **23andMe** data.
 
 ## Conclusions 
-...
+
+Eventhough it seems like this app only provide data extract and output. But it does help saving time for someone who is intrested in their gene, or prevent fture risk.
 
 ## Future Work 
-
-...
+Adding more **opensourse database** in this application. Also, ccept more different format. Not only **23andMe** only.
