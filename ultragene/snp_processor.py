@@ -7,11 +7,11 @@ def validate_and_load_snp_data(file_path):
 
     'I' and 'D' represent genetic variations involving insertions or deletions 
     of nucleotides. '0' indicates a no-call, where the genotype at a specific 
-    SNP could not be determined reliably, often due to low-quality data, 
-    technical limitations, or absence of data.
-    
+    SNP could not be determined reliably.
+
     :param file_path: Path to the 23andMe data file.
     :return: Pandas DataFrame containing SNP data, excluding rows with 'I', 'D', or '0'.
+    :raises ValueError: If the file format is unexpected or contains invalid data.
     """
     expected_columns = ['rsid', 'chromosome', 'position', 'allele1', 'allele2']
     valid_bases = {'A', 'T', 'G', 'C', 'I', 'D', '0'}
@@ -32,17 +32,24 @@ def validate_and_load_snp_data(file_path):
     if snp_df.isnull().values.any():
         raise ValueError("The file contains missing data.")
 
-    # Count and exclude rows with 'I', 'D', or '0'
+    # Validate alleles and exclude rows with 'I', 'D', or '0'
+    for allele_col in ['allele1', 'allele2']:
+        invalid_entries = snp_df[~snp_df[allele_col].isin(valid_bases)]
+        if not invalid_entries.empty:
+            invalid_info = invalid_entries[[allele_col]].stack().reset_index()
+            invalid_info.columns = ['Row', 'Column', 'Invalid Base']
+            raise ValueError(f"Invalid bases found in column '{allele_col}':\n{invalid_info}")
+
     excluded_counts = snp_df[(snp_df['allele1'].isin(['I', 'D', '0'])) | (snp_df['allele2'].isin(['I', 'D', '0']))].shape[0]
     snp_df = snp_df[~((snp_df['allele1'].isin(['I', 'D', '0'])) | (snp_df['allele2'].isin(['I', 'D', '0'])))]
 
     return snp_df, excluded_counts
 
-if __name__ == "__main__":
-    file_path = 'AncestryDNA_Raw_DNA_File.txt'
-    try:
-        snp_data, excluded_counts = validate_and_load_snp_data(file_path)
-        print(f"Data loaded successfully. Rows excluded ('I', 'D', or '0'): {excluded_counts}")
-        print(snp_data.head())
-    except ValueError as e:
-        print(e)
+# if __name__ == "__main__":
+#     file_path = 'AncestryDNA_Raw_DNA_File.txt'
+#     try:
+#         snp_data, excluded_counts = validate_and_load_snp_data(file_path)
+#         print(f"Data loaded successfully. Rows excluded ('I', 'D', or '0'): {excluded_counts}")
+#         print(snp_data.head())
+#     except ValueError as e:
+#         print(e)
