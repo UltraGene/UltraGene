@@ -62,7 +62,7 @@ This multifaceted approach is designed to provide a more comprehensive understan
    - The app identifies and suggests the most dangerous DNA positions based on the common matches.
 
 
-## Analysis of MaveDB, AlphaMissense, OMIM
+## Analysis of MaveDB, AlphaMissense
 
 To process the raw data, we use:
 
