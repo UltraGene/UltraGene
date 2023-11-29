@@ -82,4 +82,10 @@ To process the raw data, we use:
 The main goal is to provide users with a comprehensive understanding of their genetic data in relation to MaveDB and Alpha datasets, emphasizing potential health risks.
 
 ## Future Work 
-Adding more **OpenSource database** in this application. Also, ccept more different format. Not only **23andMe** only.
+1. **Incorporation of Additional OpenSource Databases:**
+   - Integrate more OpenSource databases to enrich the genetic data analysis capabilities.
+
+2. **Support for Multiple Data Formats:**
+   - Expand the data input compatibility to accept various formats.
+   - Move beyond exclusive support for 23andMe data.
+   
