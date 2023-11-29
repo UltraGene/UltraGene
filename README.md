@@ -36,7 +36,30 @@ Individuals will be able to upload their genetic data to be checked against:
 This multifaceted approach is designed to provide a more comprehensive understanding of genetic variants, particularly VUS, thereby facilitating more informed clinical decisions and contributing to more equitable and effective genomic medicine practices.
 
 ## Approach 
-We clean and rearrange MaveDB and Alpha data. Users will upload their **23andMe** data. After doing so, the streamlit app will match with MaveDB and Alpha dataset. Then, it will generate two datasheets. One called **df_23DB** which represents user DNA matches with the MaveDB, another datasheet called **df_23Alpha**, representing user DNA matches with the Alpha data. Then it will be displayed on the visualize pages. Also, there will be another datasheet called **common_position.csv** which contains the positions that users both match with MaveDB and Alpha. Which suggested is the most dangerous DNA position.
+1. **Data Cleaning and Rearrangement:**
+   - MaveDB and Alpha datasets are cleaned and rearranged for compatibility and efficiency.
+
+2. **User Data Upload:**
+   - Users upload their 23andMe genetic data into the system.
+
+3. **Data Matching:**
+   - The Streamlit app processes the uploaded 23andMe data.
+   - It performs a matching operation with both MaveDB and Alpha datasets.
+
+4. **Datasheet Generation:**
+   - Two datasheets are generated post-matching:
+     - `df_23DB`: Represents matches between user DNA and MaveDB.
+     - `df_23Alpha`: Shows matches between user DNA and Alpha data.
+
+5. **Visualization:**
+   - Both datasheets (`df_23DB` and `df_23Alpha`) are displayed on the visualization pages within the app.
+
+6. **Additional Analysis:**
+   - A third datasheet, `common_position.csv`, is generated.
+   - This datasheet contains positions where user DNA matches with both MaveDB and Alpha datasets.
+
+7. **Risk Assessment:**
+   - The app identifies and suggests the most dangerous DNA positions based on the common matches.
 
 
 ## Analysis of MaveDB, AlphaMissense, OMIM
@@ -51,9 +74,9 @@ To process the raw data, we use:
 
 Decent outcomes. Workes pretty well with input **23andMe** data.
 
-## Conclusions 
+## Conclusions
 
-Eventhough it seems like this app only provide data extract and output. But it does help saving time for someone who is intrested in their gene, or prevent fture risk.
+The main goal is to provide users with a comprehensive understanding of their genetic data in relation to MaveDB and Alpha datasets, emphasizing potential health risks.
 
 ## Future Work 
-Adding more **opensourse database** in this application. Also, ccept more different format. Not only **23andMe** only.
+Adding more **OpenSource database** in this application. Also, ccept more different format. Not only **23andMe** only.
