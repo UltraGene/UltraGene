@@ -72,7 +72,10 @@ To process the raw data, we use:
 
 ## Results 
 
-Decent outcomes. Workes pretty well with input **23andMe** data.
+- **Overall Assessment:** Decent outcomes.
+- **Performance:** Works effectively with input from 23andMe data.
+- The integration process demonstrates satisfactory performance with 23andMe genetic data.
+- The outcomes indicate a reliable level of accuracy and utility.
 
 ## Conclusions
 
