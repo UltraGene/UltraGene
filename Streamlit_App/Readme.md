@@ -10,6 +10,8 @@ Run this in Terminal > "cat chunk* > Sorted_MaveDB.csv.zip"
 
 Then unzip it. You will get Sorted_Alpha.csv, Sorted_MaveDB.csv file.
 
+Run `database_setup.sh`to create the Streamlit databse files in current directory. 
+
 # Step1
 ### Download Streamlit_app package
 
