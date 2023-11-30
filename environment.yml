@@ -2,5 +2,5 @@ name: ultragene
 channels:
   - defaults
 dependencies:
-  - pandoc=2.14.2
-  - streamlit=1.2.0
+  - pandas
+  - streamlit
