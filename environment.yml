@@ -2,7 +2,5 @@ name: ultragene
 channels:
   - defaults
 dependencies:
-    - pandas==2.1.3
-    - streamlit==1.28.2
-  
-prefix: /Users/gamma/miniconda3/envs/ultragene
+  - pandoc=2.14.2
+  - streamlit=1.2.0
