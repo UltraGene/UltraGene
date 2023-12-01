@@ -1,6 +1,7 @@
 name: ultragene
 channels:
   - defaults
+  - conda-forge
 dependencies:
   - pandas
   - streamlit
