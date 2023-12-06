@@ -1,67 +1,32 @@
-"""
-This module provides functionality to process and validate SNP (Single Nucleotide Polymorphism)
-data from 23andMe files.
-
-Functions:
-    validate_and_load_snp_data(file_path): Process and validate SNP data from a 23andMe file.
-
-Example usage:
-    Run this script directly with a path to a 23andMe data file to load and validate the data, 
-    then print the first few rows of the resulting DataFrame.
-"""
-
 import pandas as pd
 
-def validate_and_load_snp_data(file_path):
+def validate_and_load__data(file_path):
     """
-    Validate and load SNP data from a 23andMe file into a pandas DataFrame, 
-    excluding rows with 'I' (Insertion), 'D' (Deletion), and '0' (no-call).
+    Validate and load AncestryDNA data from a file into a pandas DataFrame,
+    excluding rows where either allele is '0' (no-call).
 
-    'I' and 'D' represent genetic variations involving insertions or deletions 
-    of nucleotides. '0' indicates a no-call, where the genotype at a specific 
-    SNP could not be determined reliably.
-
-    :param file_path: Path to the 23andMe data file.
-    :return: Pandas DataFrame containing SNP data, excluding rows with 'I', 'D', or '0'.
+    :param file_path: Path to the AncestryDNA data file.
+    :return: Pandas DataFrame containing SNP data.
     :raises ValueError: If the file format is unexpected or contains invalid data.
     """
-    expected_columns = ['rsid', 'chromosome', 'position', 'allele1', 'allele2']
-    valid_bases = {'A', 'T', 'G', 'C', 'I', 'D', '0'}
-    metadata_lines = 0
+    try:
+        # Reading the file with pandas, assuming tab-separated values and comments marked with '#'
+        data = pd.read_csv(file_path, sep='\t', comment='#', header=0)
 
-    with open(file_path, 'r') as file:
-        for line in file:
-            if line.startswith('#'):
-                metadata_lines += 1
-            else:
-                columns = line.strip().split('\t')
-                if columns != expected_columns:
-                    raise ValueError("Unexpected file format. The file does not contain the expected columns.")
-                break
+        # Validate if expected columns are present
+        expected_columns = ['rsid', 'chromosome', 'position', 'allele1', 'allele2']
+        if not all(column in data.columns for column in expected_columns):
+            raise ValueError("File format is unexpected, missing required columns.")
 
-    snp_df = pd.read_csv(file_path, sep='\t', skiprows=metadata_lines)
+        # Create a 'genotype' column by combining 'allele1' and 'allele2'
+        data['genotype'] = data['allele1'] + data['allele2']
 
-    if snp_df.isnull().values.any():
-        raise ValueError("The file contains missing data.")
+        # Exclude rows where either allele is '0'
+        data_cleaned = data[(data['allele1'] != '0') & (data['allele2'] != '0')]
 
-    # Validate alleles and exclude rows with 'I', 'D', or '0'
-    for allele_col in ['allele1', 'allele2']:
-        invalid_entries = snp_df[~snp_df[allele_col].isin(valid_bases)]
-        if not invalid_entries.empty:
-            invalid_info = invalid_entries[[allele_col]].stack().reset_index()
-            invalid_info.columns = ['Row', 'Column', 'Invalid Base']
-            raise ValueError(f"Invalid bases found in column '{allele_col}':\n{invalid_info}")
+        return data_cleaned
 
-    excluded_counts = snp_df[(snp_df['allele1'].isin(['I', 'D', '0'])) | (snp_df['allele2'].isin(['I', 'D', '0']))].shape[0]
-    snp_df = snp_df[~((snp_df['allele1'].isin(['I', 'D', '0'])) | (snp_df['allele2'].isin(['I', 'D', '0'])))]
+    except Exception as e:
+        # Handling exceptions related to file reading or format issues
+        raise ValueError(f"Error reading file: {e}")
 
-    return snp_df, excluded_counts
-
-# if __name__ == "__main__":
-#     file_path = 'AncestryDNA_Raw_DNA_File.txt'
-#     try:
-#         snp_data, excluded_counts = validate_and_load_snp_data(file_path)
-#         print(f"Data loaded successfully. Rows excluded ('I', 'D', or '0'): {excluded_counts}")
-#         print(snp_data.head())
-#     except ValueError as e:
-#         print(e)
