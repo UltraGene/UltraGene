@@ -10,16 +10,16 @@
 # UltraGene
 
 List of Team Members and affiliations:
-- CO | PhD Genetics @ University of Washington 
-- KC 
-- Dana
-- Zi
+- CO | PhD Genetics @ University of Washington
+- KC | MS Mechanical Engr. @ University of Washington
+- Dana | MS Mechanical Engr. @ University of Washington
+- Zi | MS Mechanical Engr. @ University of Washington
 
-## Documentation 
+## Documentation
 
 [UltraGene Documentation](https://github.com/UltraGene/ultragene.github.io)
 
-## Project Goals 
+## Project Goals
 
 For more background and context see lecture [Understanding the Functional Effects of Genetic Variation At Scale](https://youtu.be/ChzOPm1-YfI?t=350)
 
@@ -35,7 +35,7 @@ Individuals will be able to upload their genetic data to be checked against:
 
 This multifaceted approach is designed to provide a more comprehensive understanding of genetic variants, particularly VUS, thereby facilitating more informed clinical decisions and contributing to more equitable and effective genomic medicine practices.
 
-## Approach 
+## Approach
 1. **Data Cleaning and Rearrangement:**
    - MaveDB and Alpha datasets are cleaned and rearranged for compatibility and efficiency.
 
@@ -70,7 +70,7 @@ To process the raw data, we use:
 
 * AlphaMissense (https://console.cloud.google.com/storage/browser/dm_alphamissense;tab=objects?prefix=&forceOnObjectsSortingFiltering=false)
 
-## Results 
+## Results
 
 - **Overall Assessment:** Decent outcomes.
 - **Performance:** Works effectively with input from 23andMe data.
@@ -81,11 +81,10 @@ To process the raw data, we use:
 
 The main goal is to provide users with a comprehensive understanding of their genetic data in relation to MaveDB and Alpha datasets, emphasizing potential health risks.
 
-## Future Work 
+## Future Work
 1. **Incorporation of Additional OpenSource Databases:**
    - Integrate more OpenSource databases to enrich the genetic data analysis capabilities.
 
 2. **Support for Multiple Data Formats:**
    - Expand the data input compatibility to accept various formats.
    - Move beyond exclusive support for 23andMe data.
-   
