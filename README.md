@@ -35,6 +35,9 @@ Individuals will be able to upload their genetic data to be checked against:
 
 This multifaceted approach is designed to provide a more comprehensive understanding of genetic variants, particularly VUS, thereby facilitating more informed clinical decisions and contributing to more equitable and effective genomic medicine practices.
 
+## User Stories
+User Stories [ UserStories ](https://github.com/UltraGene/UltraGene/blob/main/doc/UserStory.md)
+
 ## Approach
 1. **Data Cleaning and Rearrangement:**
    - MaveDB and Alpha datasets are cleaned and rearranged for compatibility and efficiency.
