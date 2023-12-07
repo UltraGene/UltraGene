@@ -97,3 +97,10 @@ st.download_button(
     file_name='common_position',
     mime="text/csv"
 )
+
+
+# Outer Link
+st.title("More Information: Follow the link  💭")
+
+link = '[Here is the link](https://www.ncbi.nlm.nih.gov/)'
+st.markdown(link, unsafe_allow_html=True)
