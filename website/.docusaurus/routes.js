@@ -3,6 +3,41 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
+    path: '/UltraGene/__docusaurus/debug',
+    component: ComponentCreator('/UltraGene/__docusaurus/debug', '31b'),
+    exact: true
+  },
+  {
+    path: '/UltraGene/__docusaurus/debug/config',
+    component: ComponentCreator('/UltraGene/__docusaurus/debug/config', 'c9d'),
+    exact: true
+  },
+  {
+    path: '/UltraGene/__docusaurus/debug/content',
+    component: ComponentCreator('/UltraGene/__docusaurus/debug/content', '040'),
+    exact: true
+  },
+  {
+    path: '/UltraGene/__docusaurus/debug/globalData',
+    component: ComponentCreator('/UltraGene/__docusaurus/debug/globalData', '034'),
+    exact: true
+  },
+  {
+    path: '/UltraGene/__docusaurus/debug/metadata',
+    component: ComponentCreator('/UltraGene/__docusaurus/debug/metadata', 'fde'),
+    exact: true
+  },
+  {
+    path: '/UltraGene/__docusaurus/debug/registry',
+    component: ComponentCreator('/UltraGene/__docusaurus/debug/registry', '3e0'),
+    exact: true
+  },
+  {
+    path: '/UltraGene/__docusaurus/debug/routes',
+    component: ComponentCreator('/UltraGene/__docusaurus/debug/routes', '955'),
+    exact: true
+  },
+  {
     path: '/UltraGene/blog',
     component: ComponentCreator('/UltraGene/blog', '173'),
     exact: true

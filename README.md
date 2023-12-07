@@ -40,23 +40,23 @@ This multifaceted approach is designed to provide a more comprehensive understan
 pandas==2.1.3
 streamlit==1.28.2
 
-# Step1
-### Download Streamlit_app package
-### After Download the file.
-### Run `database_setup.sh`to create the Streamlit databse files in current directory. 
+### Step1
+Download Streamlit_app package
+After Download the file.
+Run `database_setup.sh`to create the Streamlit databse files in current directory. 
 
 
-# Step2
-### Make sure install streamlit in your environment.
+### Step2
+Make sure install streamlit in your environment.
 
-# Step3
-### Type "streamlit run Home.py" (The direction should be same as in Home.py)
+### Step3
+Type `streamlit run Home.py` (The direction should be same as in Home.py)
 
-# Step4
-### Upload your 23andMe.tx file. (Makes sure your last column name should call genotype)
+### Step4
+Upload your 23andMe file. (Makes sure your last column name should call genotype)
 ![My Animation](img/Matching.gif)
 
-## After matching finished. You may download your each data .csv file.
+#### After matching finished. You may download your each data .csv file.
 ![My Animation](img/Visual.gif)
 
 
