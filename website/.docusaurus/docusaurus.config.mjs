@@ -4,13 +4,13 @@
  * Modify the docusaurus.config.js file at your site's root instead.
  */
 export default {
-  "title": "My Site",
+  "title": "testUW CSE 583 Course Project | UltraGene",
   "tagline": "Dinosaurs are cool",
   "favicon": "img/favicon.ico",
   "url": "https://your-docusaurus-site.example.com",
-  "baseUrl": "/",
-  "organizationName": "facebook",
-  "projectName": "docusaurus",
+  "baseUrl": "/UltraGene/",
+  "organizationName": "UltraGene",
+  "projectName": "UltraGene",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "i18n": {

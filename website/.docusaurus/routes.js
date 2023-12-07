@@ -3,140 +3,140 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/blog',
-    component: ComponentCreator('/blog', 'a32'),
+    path: '/UltraGene/blog',
+    component: ComponentCreator('/UltraGene/blog', '173'),
     exact: true
   },
   {
-    path: '/blog/archive',
-    component: ComponentCreator('/blog/archive', 'bae'),
+    path: '/UltraGene/blog/archive',
+    component: ComponentCreator('/UltraGene/blog/archive', '2ee'),
     exact: true
   },
   {
-    path: '/blog/first-blog-post',
-    component: ComponentCreator('/blog/first-blog-post', 'e5f'),
+    path: '/UltraGene/blog/first-blog-post',
+    component: ComponentCreator('/UltraGene/blog/first-blog-post', '3f5'),
     exact: true
   },
   {
-    path: '/blog/long-blog-post',
-    component: ComponentCreator('/blog/long-blog-post', 'a5e'),
+    path: '/UltraGene/blog/long-blog-post',
+    component: ComponentCreator('/UltraGene/blog/long-blog-post', '0ba'),
     exact: true
   },
   {
-    path: '/blog/mdx-blog-post',
-    component: ComponentCreator('/blog/mdx-blog-post', 'c61'),
+    path: '/UltraGene/blog/mdx-blog-post',
+    component: ComponentCreator('/UltraGene/blog/mdx-blog-post', '4da'),
     exact: true
   },
   {
-    path: '/blog/tags',
-    component: ComponentCreator('/blog/tags', 'ed8'),
+    path: '/UltraGene/blog/tags',
+    component: ComponentCreator('/UltraGene/blog/tags', '7e2'),
     exact: true
   },
   {
-    path: '/blog/tags/docusaurus',
-    component: ComponentCreator('/blog/tags/docusaurus', 'db4'),
+    path: '/UltraGene/blog/tags/docusaurus',
+    component: ComponentCreator('/UltraGene/blog/tags/docusaurus', 'b19'),
     exact: true
   },
   {
-    path: '/blog/tags/facebook',
-    component: ComponentCreator('/blog/tags/facebook', '210'),
+    path: '/UltraGene/blog/tags/facebook',
+    component: ComponentCreator('/UltraGene/blog/tags/facebook', 'd6a'),
     exact: true
   },
   {
-    path: '/blog/tags/hello',
-    component: ComponentCreator('/blog/tags/hello', 'fbc'),
+    path: '/UltraGene/blog/tags/hello',
+    component: ComponentCreator('/UltraGene/blog/tags/hello', 'c63'),
     exact: true
   },
   {
-    path: '/blog/tags/hola',
-    component: ComponentCreator('/blog/tags/hola', 'e3d'),
+    path: '/UltraGene/blog/tags/hola',
+    component: ComponentCreator('/UltraGene/blog/tags/hola', 'af4'),
     exact: true
   },
   {
-    path: '/blog/welcome',
-    component: ComponentCreator('/blog/welcome', '033'),
+    path: '/UltraGene/blog/welcome',
+    component: ComponentCreator('/UltraGene/blog/welcome', '1ea'),
     exact: true
   },
   {
-    path: '/markdown-page',
-    component: ComponentCreator('/markdown-page', 'c3d'),
+    path: '/UltraGene/markdown-page',
+    component: ComponentCreator('/UltraGene/markdown-page', '92e'),
     exact: true
   },
   {
-    path: '/docs',
-    component: ComponentCreator('/docs', '3f4'),
+    path: '/UltraGene/docs',
+    component: ComponentCreator('/UltraGene/docs', '00b'),
     routes: [
       {
-        path: '/docs',
-        component: ComponentCreator('/docs', '40b'),
+        path: '/UltraGene/docs',
+        component: ComponentCreator('/UltraGene/docs', '230'),
         routes: [
           {
-            path: '/docs',
-            component: ComponentCreator('/docs', '292'),
+            path: '/UltraGene/docs',
+            component: ComponentCreator('/UltraGene/docs', '6f6'),
             routes: [
               {
-                path: '/docs/category/tutorial---basics',
-                component: ComponentCreator('/docs/category/tutorial---basics', 'd44'),
+                path: '/UltraGene/docs/category/tutorial---basics',
+                component: ComponentCreator('/UltraGene/docs/category/tutorial---basics', '65f'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/category/tutorial---extras',
-                component: ComponentCreator('/docs/category/tutorial---extras', 'f09'),
+                path: '/UltraGene/docs/category/tutorial---extras',
+                component: ComponentCreator('/UltraGene/docs/category/tutorial---extras', '5bb'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/intro',
-                component: ComponentCreator('/docs/intro', 'aed'),
+                path: '/UltraGene/docs/intro',
+                component: ComponentCreator('/UltraGene/docs/intro', '114'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/tutorial-basics/congratulations',
-                component: ComponentCreator('/docs/tutorial-basics/congratulations', '793'),
+                path: '/UltraGene/docs/tutorial-basics/congratulations',
+                component: ComponentCreator('/UltraGene/docs/tutorial-basics/congratulations', '5e3'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/tutorial-basics/create-a-blog-post',
-                component: ComponentCreator('/docs/tutorial-basics/create-a-blog-post', '68e'),
+                path: '/UltraGene/docs/tutorial-basics/create-a-blog-post',
+                component: ComponentCreator('/UltraGene/docs/tutorial-basics/create-a-blog-post', 'c3e'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/tutorial-basics/create-a-document',
-                component: ComponentCreator('/docs/tutorial-basics/create-a-document', 'c2d'),
+                path: '/UltraGene/docs/tutorial-basics/create-a-document',
+                component: ComponentCreator('/UltraGene/docs/tutorial-basics/create-a-document', 'fbd'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/tutorial-basics/create-a-page',
-                component: ComponentCreator('/docs/tutorial-basics/create-a-page', 'f44'),
+                path: '/UltraGene/docs/tutorial-basics/create-a-page',
+                component: ComponentCreator('/UltraGene/docs/tutorial-basics/create-a-page', '643'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/tutorial-basics/deploy-your-site',
-                component: ComponentCreator('/docs/tutorial-basics/deploy-your-site', 'e46'),
+                path: '/UltraGene/docs/tutorial-basics/deploy-your-site',
+                component: ComponentCreator('/UltraGene/docs/tutorial-basics/deploy-your-site', '7dc'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/tutorial-basics/markdown-features',
-                component: ComponentCreator('/docs/tutorial-basics/markdown-features', '4b7'),
+                path: '/UltraGene/docs/tutorial-basics/markdown-features',
+                component: ComponentCreator('/UltraGene/docs/tutorial-basics/markdown-features', 'd2a'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/tutorial-extras/manage-docs-versions',
-                component: ComponentCreator('/docs/tutorial-extras/manage-docs-versions', 'fdd'),
+                path: '/UltraGene/docs/tutorial-extras/manage-docs-versions',
+                component: ComponentCreator('/UltraGene/docs/tutorial-extras/manage-docs-versions', '3b6'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/tutorial-extras/translate-your-site',
-                component: ComponentCreator('/docs/tutorial-extras/translate-your-site', '2d7'),
+                path: '/UltraGene/docs/tutorial-extras/translate-your-site',
+                component: ComponentCreator('/UltraGene/docs/tutorial-extras/translate-your-site', '983'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }
@@ -147,8 +147,8 @@ export default [
     ]
   },
   {
-    path: '/',
-    component: ComponentCreator('/', '6c7'),
+    path: '/UltraGene/',
+    component: ComponentCreator('/UltraGene/', 'e95'),
     exact: true
   },
   {
