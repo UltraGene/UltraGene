@@ -54,10 +54,10 @@ streamlit==1.28.2
 
 # Step4
 ### Upload your 23andMe.tx file. (Makes sure your last column name should call genotype)
-![My Animation](Matching.gif)
+![My Animation](img/Matching.gif)
 
 ## After matching finished. You may download your each data .csv file.
-![My Animation](Visual.gif)
+![My Animation](img/Visual.gif)
 
 
 ## User Stories
