@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[558],{3111:e=>{e.exports=JSON.parse('{"label":"hello","permalink":"/UltraGene/blog/tags/hello","allTagsPath":"/UltraGene/blog/tags","count":2,"unlisted":false}')}}]);

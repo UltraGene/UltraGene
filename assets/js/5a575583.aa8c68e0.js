@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[5],{426:e=>{e.exports=JSON.parse('{"label":"docusaurus","permalink":"/UltraGene/blog/tags/docusaurus","allTagsPath":"/UltraGene/blog/tags","count":4,"unlisted":false}')}}]);
