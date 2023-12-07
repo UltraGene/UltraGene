@@ -60,10 +60,9 @@ streamlit==1.28.2
 ![My Animation](Visual.gif)
 
 
-
-
 ## User Stories
 User Stories [ UserStories ](https://github.com/UltraGene/UltraGene/blob/main/doc/UserStory.md)
+
 
 ## Approach
 1. **Data Cleaning and Rearrangement:**
@@ -96,9 +95,9 @@ User Stories [ UserStories ](https://github.com/UltraGene/UltraGene/blob/main/do
 
 To process the raw data, we use:
 
-* MaveDB script ([ultragene/analysis/get_mave_scores.py](https://github.com/UltraGene/UltraGene/blob/main/analysis/get_mave_scores.py))
+* MaveDB script [ultragene/analysis/get_mave_scores.py](https://github.com/UltraGene/UltraGene/blob/main/analysis/get_mave_scores.py)
 
-* AlphaMissense (https://console.cloud.google.com/storage/browser/dm_alphamissense;tab=objects?prefix=&forceOnObjectsSortingFiltering=false)
+* AlphaMissense [AlphMissence Raw Data](https://console.cloud.google.com/storage/browser/dm_alphamissense;tab=objects?prefix=&forceOnObjectsSortingFiltering=false)
 
 ## Results
 
