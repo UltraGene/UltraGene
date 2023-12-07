@@ -1,166 +1,141 @@
-const path = require('path');
-const {components} = require('./src/plugins/components');
+// @ts-check
+// `@type` JSDoc annotations allow editor autocompletion and type checking
+// (when paired with `@ts-check`).
+// There are various equivalent ways to declare your Docusaurus config.
+// See: https://docusaurus.io/docs/api/docusaurus-config
 
-module.exports = {
-  title: 'Benthos',
-  tagline: 'Fancy stream processing made operationally mundane',
-  url: 'https://www.benthos.dev',
-  baseUrl: '/',
+import {themes as prismThemes} from 'prism-react-renderer';
+
+/** @type {import('@docusaurus/types').Config} */
+const config = {
+  title: 'My Site',
+  tagline: 'Dinosaurs are cool',
   favicon: 'img/favicon.ico',
-  organizationName: 'benthosdev',
-  projectName: 'benthos',
-  customFields: {
-    components: {
-      inputs: components("inputs"),
-      processors: components("processors"),
-      outputs: components("outputs"),
-      caches: components("caches"),
-      rate_limits: components("rate_limits"),
-      buffers: components("buffers"),
-      metrics: components("metrics"),
-      tracers: components("tracers"),
-    },
+
+  // Set the production url of your site here
+  url: 'https://your-docusaurus-site.example.com',
+  // Set the /<baseUrl>/ pathname under which your site is served
+  // For GitHub pages deployment, it is often '/<projectName>/'
+  baseUrl: '/',
+
+  // GitHub pages deployment config.
+  // If you aren't using GitHub pages, you don't need these.
+  organizationName: 'facebook', // Usually your GitHub org/user name.
+  projectName: 'docusaurus', // Usually your repo name.
+
+  onBrokenLinks: 'throw',
+  onBrokenMarkdownLinks: 'warn',
+
+  // Even if you don't use internationalization, you can use this field to set
+  // useful metadata like html lang. For example, if your site is Chinese, you
+  // may want to replace "en" with "zh-Hans".
+  i18n: {
+    defaultLocale: 'en',
+    locales: ['en'],
   },
-  themeConfig: {
-    prism: {
-      theme: require('./src/plugins/prism_themes/github'),
-      darkTheme: require('./src/plugins/prism_themes/monokai'),
-    },
-    colorMode: {
-      defaultMode: 'light',
-    },
-    image: 'img/og_img.png',
-    metadata: [
-      {name: 'keywords', content: 'benthos, stream processor, data engineering, ETL, ELT, event processor, go, golang'},
-      {name: 'twitter:card', content: 'summary'},
-    ],
-    navbar: {
-      title: 'Benthos',
-      logo: {
-        alt: 'Benthos Blobfish',
-        src: 'img/logo.svg',
-      },
-      items: [
-        {to: 'docs/about', label: 'Docs', position: 'left'},
-        {to: 'cookbooks', label: 'Cookbooks', position: 'left'},
-        {to: 'https://studio.benthos.dev', label: 'Studio', position: 'left'},
-        {to: 'blog', label: 'Blog', position: 'left'},
-        {to: 'community', label: 'Community', position: 'right'},
-        {to: 'support', label: 'Support', position: 'right'},
-        {
-          href: 'https://github.com/benthosdev/benthos/releases/latest',
-          position: 'right',
-          className: 'header-download-link header-icon-link',
-          'aria-label': 'Download',
-        },
-        {
-          href: 'https://github.com/benthosdev/benthos',
-          position: 'right',
-          className: 'header-github-link header-icon-link',
-          'aria-label': 'GitHub repository',
-        },
-      ],
-    },
-    footer: {
-      style: 'dark',
-      links: [
-        {
-          title: 'Help',
-          items: [
-            {
-              label: 'Support',
-              to: 'support',
-            },
-            {
-              label: 'Documentation',
-              to: 'docs/guides/getting_started',
-            },
-            {
-              label: 'Videos',
-              to: 'videos',
-            },
-          ],
-        },
-        {
-          title: 'Swag',
-          items: [
-            {
-              label: 'Meet the Mascot',
-              to: 'blobfish',
-            },
-            {
-              label: 'Purchase Stickers',
-              href: 'https://www.redbubble.com/people/earzola/shop',
-            },
-          ],
-        },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Join the chat',
-              to: 'community',
-            },
-            {
-              label: 'See the Code',
-              href: 'https://github.com/benthosdev/benthos',
-            },
-            {
-              label: 'Sponsor the Developers',
-              href: 'https://github.com/sponsors/Jeffail',
-            },
-          ],
-        },
-      ],
-      copyright: `Copyright © ${new Date().getFullYear()} Ashley Jeffs.`,
-    },
-    announcementBar: {
-      id: 'star_the_dang_repo',
-      content: `<strong>Hey, 🫵 you, make sure you've <a target="_blank" rel="noopener noreferrer" href="https://github.com/benthosdev/benthos">⭐ starred the repo ⭐</a> otherwise you won't be entered into our daily prize draw for silent admiration.</strong>`,
-      backgroundColor: 'var(--ifm-color-primary)',
-      textColor: 'var(--ifm-background-color)',
-      isCloseable: true,
-    },
-    algolia: {
-      appId: 'WBY9Z65YR4',
-      apiKey: 'a6c476911e6ecef76049a55d9798a51b',
-      indexName: 'benthos',
-      contextualSearch: true
-    }
-  },
+
   presets: [
     [
-      '@docusaurus/preset-classic',
-      {
+      'classic',
+      /** @type {import('@docusaurus/preset-classic').Options} */
+      ({
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
+          sidebarPath: './sidebars.js',
+          // Please change this to your repo.
+          // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/benthosdev/benthos/edit/main/website/',
-        },
-        theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
-          feedOptions: {
-            type: 'all',
-          },
+          showReadingTime: true,
+          // Please change this to your repo.
+          // Remove this to remove the "edit this page" links.
+          editUrl:
+            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
-      },
+        theme: {
+          customCss: './src/css/custom.css',
+        },
+      }),
     ],
   ],
-  plugins: [
-    path.resolve(__dirname, './src/plugins/analytics'),
-    [
-      require.resolve("./src/plugins/cookbooks/compiled/index"),
-      {
-        path: 'cookbooks',
-        routeBasePath: 'cookbooks',
-        include: ['*.md', '*.mdx'],
-        exclude: [],
-        guideListComponent: '@theme/CookbookListPage',
-        guidePostComponent: '@theme/CookbookPage',
+
+  themeConfig:
+    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+    ({
+      // Replace with your project's social card
+      image: 'img/docusaurus-social-card.jpg',
+      navbar: {
+        title: 'My Site',
+        logo: {
+          alt: 'My Site Logo',
+          src: 'img/logo.svg',
+        },
+        items: [
+          {
+            type: 'docSidebar',
+            sidebarId: 'tutorialSidebar',
+            position: 'left',
+            label: 'Tutorial',
+          },
+          {to: '/blog', label: 'Blog', position: 'left'},
+          {
+            href: 'https://github.com/facebook/docusaurus',
+            label: 'GitHub',
+            position: 'right',
+          },
+        ],
       },
-    ],
-  ],
+      footer: {
+        style: 'dark',
+        links: [
+          {
+            title: 'Docs',
+            items: [
+              {
+                label: 'Tutorial',
+                to: '/docs/intro',
+              },
+            ],
+          },
+          {
+            title: 'Community',
+            items: [
+              {
+                label: 'Stack Overflow',
+                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              },
+              {
+                label: 'Discord',
+                href: 'https://discordapp.com/invite/docusaurus',
+              },
+              {
+                label: 'Twitter',
+                href: 'https://twitter.com/docusaurus',
+              },
+            ],
+          },
+          {
+            title: 'More',
+            items: [
+              {
+                label: 'Blog',
+                to: '/blog',
+              },
+              {
+                label: 'GitHub',
+                href: 'https://github.com/facebook/docusaurus',
+              },
+            ],
+          },
+        ],
+        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      },
+      prism: {
+        theme: prismThemes.github,
+        darkTheme: prismThemes.dracula,
+      },
+    }),
 };
 
+export default config;
