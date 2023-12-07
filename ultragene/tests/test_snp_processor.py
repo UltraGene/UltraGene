@@ -1,6 +1,10 @@
 import unittest
+import sys
 
-from ultragene.snp_processor import validate_and_load_snp_data  
+sys.path.append('..')
+
+from ultragene.snp_processor import validate_and_load__data  
+
 
 class TestSNPProcessor(unittest.TestCase):
     
