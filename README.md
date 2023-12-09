@@ -46,7 +46,7 @@ pip install pandas
 ### Step2 Download Streamlit_app package
 
 ```shell
-curl -o https://github.com/UltraGene/UltraGene/tree/main/ultragene/Stream
+curl -o "https://github.com/UltraGene/UltraGene/tree/main/ultragene/Stream"
 ```
 ### Make sure your system in Streamlit_app path
 
