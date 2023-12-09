@@ -35,6 +35,24 @@ Individuals will be able to upload their genetic data to be checked against:
 
 This multifaceted approach is designed to provide a more comprehensive understanding of genetic variants, particularly VUS, thereby facilitating more informed clinical decisions and contributing to more equitable and effective genomic medicine practices.
 
+# Repository Structure
+ ```
+.
+├── .github/workflows
+├── demo
+├── doc
+├── img
+├── ultragene
+|   ├── Stream
+|   |   ├──Pages
+│   ├── data
+│   └── tests
+├── website
+├── .gitignore
+├── LICENSE
+├── README.md
+└── environment.yml
+ ```
 # Streamlit Application Download Step
 
 ### Step1 Set up environment
@@ -43,27 +61,30 @@ pip install streamlit
 pip install pandas 
 ```
 
-### Step2 Download Streamlit_app package
+### Step2 Download whole repo
 
-```shell
-curl -o "https://github.com/UltraGene/UltraGene/tree/main/ultragene/Stream"
-```
-### Make sure your system in Streamlit_app path
+### Make sure your system in "Stream" path, and run this code:
 
 ```shell
 bash database_setup.sh
 ```
 
-### Step3
-### Type "streamlit run Home.py" (The direction should be same as in Home.py)
+### Step3 Use the code down below to run the streamlit (in your python terminal):
+```shell
+streamlit run Home.py
+```
 
-### Step4
-### Upload your 23andMe.tx file. (Makes sure your last column name should call genotype)
-![My Animation](Matching.gif)
+### Step4 Upload your 23andMe.tx file. (Makes sure your last column name should call genotype)
+<p align="center">
+    <br><br>
+    <img src="img/Matching.gif" alt="DNA Animation" style="width: 80%; margin: auto; display: block;">
+</p>
 
-## After matching finished. You may download your each data .csv file.
-![My Animation](Visual.gif)
-
+### After matching finished. You may download your each data .csv file.
+<p align="center">
+    <br><br>
+    <img src="img/Visual.gif" alt="DNA Animation" style="width: 80%; margin: auto; display: block;">
+</p>
 
 ## User Stories
 User Stories [ UserStories ](https://github.com/UltraGene/UltraGene/blob/main/doc/UserStory.md)
