@@ -35,29 +35,30 @@ Individuals will be able to upload their genetic data to be checked against:
 
 This multifaceted approach is designed to provide a more comprehensive understanding of genetic variants, particularly VUS, thereby facilitating more informed clinical decisions and contributing to more equitable and effective genomic medicine practices.
 
-## Streamlit Application Download Step
-### Environment
-pandas==2.1.3
-streamlit==1.28.2
+# Streamlit Application Download Step
 
-### Step1
-Download Streamlit_app package
-After Download the file.
-Run `database_setup.sh`to create the Streamlit databse files in current directory. 
+### Step1 Set up environment
+``` shell
+pip install streamlit
+pip install pandas 
+```
 
+### Step2 Download Streamlit_app package
 
-### Step2
-Make sure install streamlit in your environment.
+```shell
+curl -o https://github.com/UltraGene/UltraGene/tree/main/Streamlit_App
+```
+### Run `database_setup.sh`to create the Streamlit databse files in current directory. 
 
 ### Step3
-Type `streamlit run Home.py` (The direction should be same as in Home.py)
+### Type "streamlit run Home.py" (The direction should be same as in Home.py)
 
 ### Step4
-Upload your 23andMe file. (Makes sure your last column name should call genotype)
-![My Animation](img/Matching.gif)
+### Upload your 23andMe.tx file. (Makes sure your last column name should call genotype)
+![My Animation](Matching.gif)
 
-#### After matching finished. You may download your each data .csv file.
-![My Animation](img/Visual.gif)
+## After matching finished. You may download your each data .csv file.
+![My Animation](Visual.gif)
 
 
 ## User Stories
