@@ -16,3 +16,6 @@ cat Alpha* > Sorted_Alpha.csv.zip
 # Unzip the concatenated files
 unzip Sorted_MaveDB.csv.zip
 unzip Sorted_Alpha.csv.zip
+
+# Remove zip file
+rm *.zip

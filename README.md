@@ -48,7 +48,11 @@ pip install pandas
 ```shell
 curl -o https://github.com/UltraGene/UltraGene/tree/main/Streamlit_App
 ```
-### Run `database_setup.sh`to create the Streamlit databse files in current directory. 
+### Make sure your system in Streamlit_app path
+
+```shell
+bash database_setup.sh
+```
 
 ### Step3
 ### Type "streamlit run Home.py" (The direction should be same as in Home.py)
