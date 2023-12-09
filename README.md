@@ -32,7 +32,6 @@ Individuals will be able to upload their genetic data to be checked against:
 
 1. **Functional Data from Multiplex Assays of Variant Effects (MAVEs)**: This involves acquiring data through Saturation Genome Editing to determine the functional impact of missense genetic variants.
 2. **AlphaMissense In Silico Prediction**: Utilizing AlphaMissense, an in silico prediction tool, to assess the impact of missense variants on VUS, enhancing our understanding of their potential effects.
-3. **Online Mendelian Inheritance in Man (OMIM) Analysis**: Integrating data from OMIM to understand inheritance patterns of genes, particularly focusing on whether mutations in a single allele or both alleles contribute to disease development.
 
 This multifaceted approach is designed to provide a more comprehensive understanding of genetic variants, particularly VUS, thereby facilitating more informed clinical decisions and contributing to more equitable and effective genomic medicine practices.
 
