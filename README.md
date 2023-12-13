@@ -43,12 +43,11 @@ This multifaceted approach is designed to provide a more comprehensive understan
 ├── img
 ├── ultragene
 |   ├── Stream
-|   |   ├──Pages
+|   |   └──Pages
 │   ├── data
 |   |   ├── 23andMe
 |   |   ├── MaveDB
-|   |   ├── AlphaMissense
-│   └── tests
+|   |   └── AlphaMissense
 ├── .gitignore
 ├── LICENSE
 ├── README.md
