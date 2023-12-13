@@ -39,15 +39,16 @@ This multifaceted approach is designed to provide a more comprehensive understan
  ```
 .
 ├── .github/workflows
-├── demo
 ├── doc
 ├── img
 ├── ultragene
 |   ├── Stream
 |   |   ├──Pages
 │   ├── data
+|   |   ├── 23andMe
+|   |   ├── MaveDB
+|   |   ├── AlphaMissense
 │   └── tests
-├── website
 ├── .gitignore
 ├── LICENSE
 ├── README.md
