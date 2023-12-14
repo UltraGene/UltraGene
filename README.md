@@ -18,7 +18,7 @@ List of Team Members and affiliations:
 
 # 🗂Documentation
 
-[UltraGene Documentation](https://github.com/UltraGene/ultragene.github.io)
+[UltraGene Documentation](https://ultragene.github.io/UltraGene/)
 
 # 🀄Project Goals
 
