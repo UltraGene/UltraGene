@@ -1,0 +1,245 @@
+{
+  "/UltraGene/__docusaurus/debug-31b": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---ultra-gene-docusaurus-debug-3-b-1-a93"
+    }
+  },
+  "/UltraGene/__docusaurus/debug/config-c9d": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---ultra-gene-docusaurus-debug-3-b-1-a93"
+    }
+  },
+  "/UltraGene/__docusaurus/debug/content-040": {
+    "__comp": "__comp---theme-debug-contentba-8-ce7",
+    "__context": {
+      "plugin": "plugin---ultra-gene-docusaurus-debug-3-b-1-a93"
+    },
+    "allContent": "allContent---ultra-gene-docusaurus-debug-content-246-6dd"
+  },
+  "/UltraGene/__docusaurus/debug/globalData-034": {
+    "__comp": "__comp---theme-debug-global-dataede-0fa",
+    "__context": {
+      "plugin": "plugin---ultra-gene-docusaurus-debug-3-b-1-a93"
+    }
+  },
+  "/UltraGene/__docusaurus/debug/metadata-fde": {
+    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
+    "__context": {
+      "plugin": "plugin---ultra-gene-docusaurus-debug-3-b-1-a93"
+    }
+  },
+  "/UltraGene/__docusaurus/debug/registry-3e0": {
+    "__comp": "__comp---theme-debug-registry-679-501",
+    "__context": {
+      "plugin": "plugin---ultra-gene-docusaurus-debug-3-b-1-a93"
+    }
+  },
+  "/UltraGene/__docusaurus/debug/routes-955": {
+    "__comp": "__comp---theme-debug-routes-946-699",
+    "__context": {
+      "plugin": "plugin---ultra-gene-docusaurus-debug-3-b-1-a93"
+    }
+  },
+  "/UltraGene/blog-173": {
+    "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
+    "__context": {
+      "plugin": "plugin---ultra-gene-blog-367-856"
+    },
+    "sidebar": "sidebar---ultra-gene-blog-814-dbb",
+    "items": [
+      {
+        "content": "content---ultra-gene-blog-766-517"
+      },
+      {
+        "content": "content---ultra-gene-blogf-4-f-351"
+      },
+      {
+        "content": "content---ultra-gene-blog-871-398"
+      },
+      {
+        "content": "content---ultra-gene-blog-925-723"
+      }
+    ],
+    "metadata": "metadata---ultra-gene-blog-5-a-4-42f"
+  },
+  "/UltraGene/blog/archive-2ee": {
+    "__comp": "__comp---theme-blog-archive-page-9-e-4-1d8",
+    "__context": {
+      "plugin": "plugin---ultra-gene-blog-367-856"
+    },
+    "archive": "archive---ultra-gene-blog-archive-70-d-fb8"
+  },
+  "/UltraGene/blog/first-blog-post-3f5": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "plugin": "plugin---ultra-gene-blog-367-856"
+    },
+    "sidebar": "sidebar---ultra-gene-blog-814-dbb",
+    "content": "content---ultra-gene-blog-first-blog-poste-27-c7e"
+  },
+  "/UltraGene/blog/long-blog-post-0ba": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "plugin": "plugin---ultra-gene-blog-367-856"
+    },
+    "sidebar": "sidebar---ultra-gene-blog-814-dbb",
+    "content": "content---ultra-gene-blog-long-blog-post-736-76a"
+  },
+  "/UltraGene/blog/mdx-blog-post-4da": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "plugin": "plugin---ultra-gene-blog-367-856"
+    },
+    "sidebar": "sidebar---ultra-gene-blog-814-dbb",
+    "content": "content---ultra-gene-blog-mdx-blog-post-593-099"
+  },
+  "/UltraGene/blog/tags-7e2": {
+    "__comp": "__comp---theme-blog-tags-list-page-01-a-d0b",
+    "__context": {
+      "plugin": "plugin---ultra-gene-blog-367-856"
+    },
+    "sidebar": "sidebar---ultra-gene-blog-814-dbb",
+    "tags": "tags---ultra-gene-blog-tags-804-fa7"
+  },
+  "/UltraGene/blog/tags/docusaurus-b19": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---ultra-gene-blog-367-856"
+    },
+    "sidebar": "sidebar---ultra-gene-blog-814-dbb",
+    "items": [
+      {
+        "content": "content---ultra-gene-blog-766-517"
+      },
+      {
+        "content": "content---ultra-gene-blogf-4-f-351"
+      },
+      {
+        "content": "content---ultra-gene-blog-871-398"
+      },
+      {
+        "content": "content---ultra-gene-blog-925-723"
+      }
+    ],
+    "tag": "tag---ultra-gene-blog-tags-docusaurus-5-a-5-251",
+    "listMetadata": "listMetadata---ultra-gene-blog-tags-docusaurusf-91-1be"
+  },
+  "/UltraGene/blog/tags/facebook-d6a": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---ultra-gene-blog-367-856"
+    },
+    "sidebar": "sidebar---ultra-gene-blog-814-dbb",
+    "items": [
+      {
+        "content": "content---ultra-gene-blog-766-517"
+      }
+    ],
+    "tag": "tag---ultra-gene-blog-tags-facebook-882-f4a",
+    "listMetadata": "listMetadata---ultra-gene-blog-tags-facebook-1-ab-e6d"
+  },
+  "/UltraGene/blog/tags/hello-c63": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---ultra-gene-blog-367-856"
+    },
+    "sidebar": "sidebar---ultra-gene-blog-814-dbb",
+    "items": [
+      {
+        "content": "content---ultra-gene-blog-766-517"
+      },
+      {
+        "content": "content---ultra-gene-blog-871-398"
+      }
+    ],
+    "tag": "tag---ultra-gene-blog-tags-hello-6-a-5-589",
+    "listMetadata": "listMetadata---ultra-gene-blog-tags-hellod-68-4ef"
+  },
+  "/UltraGene/blog/tags/hola-af4": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---ultra-gene-blog-367-856"
+    },
+    "sidebar": "sidebar---ultra-gene-blog-814-dbb",
+    "items": [
+      {
+        "content": "content---ultra-gene-blog-925-723"
+      }
+    ],
+    "tag": "tag---ultra-gene-blog-tags-holab-85-813",
+    "listMetadata": "listMetadata---ultra-gene-blog-tags-hola-2-ac-5cb"
+  },
+  "/UltraGene/blog/welcome-1ea": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "plugin": "plugin---ultra-gene-blog-367-856"
+    },
+    "sidebar": "sidebar---ultra-gene-blog-814-dbb",
+    "content": "content---ultra-gene-blog-welcomed-9-f-55c"
+  },
+  "/UltraGene/markdown-page-92e": {
+    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__context": {
+      "plugin": "plugin---ultra-gene-markdown-page-7-ec-e48"
+    },
+    "content": "content---ultra-gene-markdown-page-393-016"
+  },
+  "/UltraGene/docs-987": {
+    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
+    "__context": {
+      "plugin": "plugin---ultra-gene-docsa-6-b-c3d"
+    }
+  },
+  "/UltraGene/docs-b3d": {
+    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
+    "version": "version---ultra-gene-docs-935-210"
+  },
+  "/UltraGene/docs-f40": {
+    "__comp": "__comp---theme-doc-roota-94-67a"
+  },
+  "/UltraGene/docs/category/tutorial---basics-65f": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "categoryGeneratedIndex": "categoryGeneratedIndex---ultra-gene-docs-category-tutorial-basicsf-9-f-50e"
+  },
+  "/UltraGene/docs/intro-114": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---ultra-gene-docs-intro-0-e-3-c2c"
+  },
+  "/UltraGene/docs/intro copy-924": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---ultra-gene-docs-intro-copy-9-af-5a7"
+  },
+  "/UltraGene/docs/tutorial-basics/congratulations-5e3": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---ultra-gene-docs-tutorial-basics-congratulations-822-ab4"
+  },
+  "/UltraGene/docs/tutorial-basics/create-a-blog-post-c3e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---ultra-gene-docs-tutorial-basics-create-a-blog-post-533-302"
+  },
+  "/UltraGene/docs/tutorial-basics/create-a-document-fbd": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---ultra-gene-docs-tutorial-basics-create-a-document-1-e-4-955"
+  },
+  "/UltraGene/docs/tutorial-basics/create-a-page-643": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---ultra-gene-docs-tutorial-basics-create-a-page-5-c-8-353"
+  },
+  "/UltraGene/docs/tutorial-basics/deploy-your-site-7dc": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---ultra-gene-docs-tutorial-basics-deploy-your-sitef-55-1d1"
+  },
+  "/UltraGene/docs/tutorial-basics/markdown-features-d2a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---ultra-gene-docs-tutorial-basics-markdown-features-18-c-835"
+  },
+  "/UltraGene/-e95": {
+    "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",
+    "__context": {
+      "plugin": "plugin---ultra-gene-markdown-page-7-ec-e48"
+    },
+    "config": "config---ultra-gene-5-e-9-745"
+  }
+}

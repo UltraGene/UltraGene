@@ -1,0 +1,25 @@
+{
+  "title": "Recent posts",
+  "items": [
+    {
+      "title": "Welcome",
+      "permalink": "/UltraGene/blog/welcome",
+      "unlisted": false
+    },
+    {
+      "title": "MDX Blog Post",
+      "permalink": "/UltraGene/blog/mdx-blog-post",
+      "unlisted": false
+    },
+    {
+      "title": "Long Blog Post",
+      "permalink": "/UltraGene/blog/long-blog-post",
+      "unlisted": false
+    },
+    {
+      "title": "First Blog Post",
+      "permalink": "/UltraGene/blog/first-blog-post",
+      "unlisted": false
+    }
+  ]
+}

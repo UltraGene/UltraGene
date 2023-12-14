@@ -1,0 +1,703 @@
+{
+  "entrypoints": [
+    "main"
+  ],
+  "origins": {
+    "1772": [
+      1772
+    ],
+    "2196": [
+      532,
+      3085,
+      3089,
+      6103,
+      7918,
+      8610,
+      9677,
+      2196
+    ],
+    "9677": [
+      532,
+      2196,
+      3089,
+      6103,
+      8610,
+      9677
+    ],
+    "17896441": [
+      532,
+      2196,
+      7918
+    ],
+    "36734994": [
+      2342
+    ],
+    "59362658": [
+      2267
+    ],
+    "main": [
+      532,
+      1303,
+      179
+    ],
+    "runtime~main": [
+      179,
+      532,
+      1303
+    ],
+    "01a85c17": [
+      532,
+      4013
+    ],
+    "0e384e19": [
+      9671
+    ],
+    "14eb3368": [
+      532,
+      9817
+    ],
+    "18c41134": [
+      2859
+    ],
+    "1ab9e9f1": [
+      3000
+    ],
+    "1e4232ab": [
+      8818
+    ],
+    "1f391b9e": [
+      532,
+      2196,
+      3085
+    ],
+    "2322c2ce": [
+      7752
+    ],
+    "2ac211f9": [
+      7701
+    ],
+    "393be207": [
+      7414
+    ],
+    "533a09ca": [
+      4607
+    ],
+    "5a4e0f4a": [
+      455
+    ],
+    "5a575583": [
+      5
+    ],
+    "5c868d36": [
+      5589
+    ],
+    "5e95c892": [
+      9661
+    ],
+    "6875c492": [
+      532,
+      2196,
+      9677,
+      8610
+    ],
+    "6a56c7c2": [
+      558
+    ],
+    "70d3712a": [
+      2646
+    ],
+    "73664a40": [
+      3514
+    ],
+    "7661071f": [
+      9642
+    ],
+    "7ecfcd19": [
+      6158
+    ],
+    "80423a42": [
+      1703
+    ],
+    "814f3328": [
+      2535
+    ],
+    "822bd8ab": [
+      6504
+    ],
+    "8717b14a": [
+      948
+    ],
+    "8828fb97": [
+      725
+    ],
+    "925b3f96": [
+      9003
+    ],
+    "935f2afb": [
+      53
+    ],
+    "9e4087bc": [
+      3608
+    ],
+    "a6aa9e1f": [
+      532,
+      2196,
+      9677,
+      3089
+    ],
+    "a6b8cde4": [
+      2398
+    ],
+    "a7bd4aaa": [
+      8518
+    ],
+    "a94703ab": [
+      532,
+      4368
+    ],
+    "b8556787": [
+      8935
+    ],
+    "c4f5d8e4": [
+      532,
+      4195
+    ],
+    "ccc49370": [
+      532,
+      2196,
+      9677,
+      6103
+    ],
+    "d682bc98": [
+      17
+    ],
+    "d9f32620": [
+      1914
+    ],
+    "dff1c289": [
+      3792
+    ],
+    "e273c56f": [
+      2362
+    ],
+    "e44a2883": [
+      6755
+    ],
+    "f4f34a3a": [
+      8636
+    ],
+    "f55d3e7a": [
+      4193
+    ],
+    "f910723e": [
+      161
+    ],
+    "f9fd75f3": [
+      1050
+    ],
+    "styles": [
+      179,
+      1303,
+      2196,
+      3085,
+      3089,
+      4013,
+      4195,
+      4368,
+      6103,
+      7918,
+      8610,
+      9677,
+      9817,
+      532
+    ]
+  },
+  "assets": {
+    "5": {
+      "js": [
+        {
+          "file": "assets/js/5a575583.aa8c68e0.js",
+          "hash": "58c17deaaedc33a5",
+          "publicPath": "/UltraGene/assets/js/5a575583.aa8c68e0.js"
+        }
+      ]
+    },
+    "17": {
+      "js": [
+        {
+          "file": "assets/js/d682bc98.758964c3.js",
+          "hash": "565dedca9c01093e",
+          "publicPath": "/UltraGene/assets/js/d682bc98.758964c3.js"
+        }
+      ]
+    },
+    "53": {
+      "js": [
+        {
+          "file": "assets/js/935f2afb.0fe18a25.js",
+          "hash": "8eee5092b2d9c4d2",
+          "publicPath": "/UltraGene/assets/js/935f2afb.0fe18a25.js"
+        }
+      ]
+    },
+    "161": {
+      "js": [
+        {
+          "file": "assets/js/f910723e.74718209.js",
+          "hash": "cf75ec7b0313f6bf",
+          "publicPath": "/UltraGene/assets/js/f910723e.74718209.js"
+        }
+      ]
+    },
+    "179": {
+      "js": [
+        {
+          "file": "assets/js/main.8f7a2317.js",
+          "hash": "28534daba3f4a207",
+          "publicPath": "/UltraGene/assets/js/main.8f7a2317.js"
+        }
+      ]
+    },
+    "455": {
+      "js": [
+        {
+          "file": "assets/js/5a4e0f4a.baf9f284.js",
+          "hash": "b1499fdde0384b31",
+          "publicPath": "/UltraGene/assets/js/5a4e0f4a.baf9f284.js"
+        }
+      ]
+    },
+    "532": {
+      "css": [
+        {
+          "file": "assets/css/styles.1c022e41.css",
+          "hash": "4ef516521319a69b",
+          "publicPath": "/UltraGene/assets/css/styles.1c022e41.css"
+        }
+      ]
+    },
+    "558": {
+      "js": [
+        {
+          "file": "assets/js/6a56c7c2.346d9f10.js",
+          "hash": "22d131dc21e1664b",
+          "publicPath": "/UltraGene/assets/js/6a56c7c2.346d9f10.js"
+        }
+      ]
+    },
+    "725": {
+      "js": [
+        {
+          "file": "assets/js/8828fb97.a7695327.js",
+          "hash": "985f35ec669f39b8",
+          "publicPath": "/UltraGene/assets/js/8828fb97.a7695327.js"
+        }
+      ]
+    },
+    "948": {
+      "js": [
+        {
+          "file": "assets/js/8717b14a.ff1d56f4.js",
+          "hash": "7651a12dd2798a5c",
+          "publicPath": "/UltraGene/assets/js/8717b14a.ff1d56f4.js"
+        }
+      ]
+    },
+    "1050": {
+      "js": [
+        {
+          "file": "assets/js/f9fd75f3.6969c036.js",
+          "hash": "27cbd86c924dd5d9",
+          "publicPath": "/UltraGene/assets/js/f9fd75f3.6969c036.js"
+        }
+      ]
+    },
+    "1303": {
+      "js": [
+        {
+          "file": "assets/js/runtime~main.1618306d.js",
+          "hash": "5ebf385070ea0a42",
+          "publicPath": "/UltraGene/assets/js/runtime~main.1618306d.js"
+        }
+      ]
+    },
+    "1703": {
+      "js": [
+        {
+          "file": "assets/js/80423a42.ec4cf29d.js",
+          "hash": "c5d9ebab19be3393",
+          "publicPath": "/UltraGene/assets/js/80423a42.ec4cf29d.js"
+        }
+      ]
+    },
+    "1772": {
+      "js": [
+        {
+          "file": "assets/js/1772.1bcce1cb.js",
+          "hash": "2a8fa2ebdae57650",
+          "publicPath": "/UltraGene/assets/js/1772.1bcce1cb.js"
+        }
+      ]
+    },
+    "1914": {
+      "js": [
+        {
+          "file": "assets/js/d9f32620.6b99a25e.js",
+          "hash": "f165a4ec0aafa232",
+          "publicPath": "/UltraGene/assets/js/d9f32620.6b99a25e.js"
+        }
+      ]
+    },
+    "2196": {
+      "js": [
+        {
+          "file": "assets/js/2196.e3f4fd4a.js",
+          "hash": "76c7ceeeed9d0757",
+          "publicPath": "/UltraGene/assets/js/2196.e3f4fd4a.js"
+        }
+      ]
+    },
+    "2267": {
+      "js": [
+        {
+          "file": "assets/js/59362658.532cbb62.js",
+          "hash": "49ab08cf63b75cde",
+          "publicPath": "/UltraGene/assets/js/59362658.532cbb62.js"
+        }
+      ]
+    },
+    "2342": {
+      "js": [
+        {
+          "file": "assets/js/36734994.4fccb06e.js",
+          "hash": "df7882c7afd77b79",
+          "publicPath": "/UltraGene/assets/js/36734994.4fccb06e.js"
+        }
+      ]
+    },
+    "2362": {
+      "js": [
+        {
+          "file": "assets/js/e273c56f.ab9cbf14.js",
+          "hash": "669f1645c250ed4d",
+          "publicPath": "/UltraGene/assets/js/e273c56f.ab9cbf14.js"
+        }
+      ]
+    },
+    "2398": {
+      "js": [
+        {
+          "file": "assets/js/a6b8cde4.a44cd197.js",
+          "hash": "8bccf221828b35b5",
+          "publicPath": "/UltraGene/assets/js/a6b8cde4.a44cd197.js"
+        }
+      ]
+    },
+    "2535": {
+      "js": [
+        {
+          "file": "assets/js/814f3328.0fe5da20.js",
+          "hash": "ba2244567b8d6730",
+          "publicPath": "/UltraGene/assets/js/814f3328.0fe5da20.js"
+        }
+      ]
+    },
+    "2646": {
+      "js": [
+        {
+          "file": "assets/js/70d3712a.c4144348.js",
+          "hash": "04535c730b84dddc",
+          "publicPath": "/UltraGene/assets/js/70d3712a.c4144348.js"
+        }
+      ]
+    },
+    "2859": {
+      "js": [
+        {
+          "file": "assets/js/18c41134.25a16abe.js",
+          "hash": "2a017d161020f289",
+          "publicPath": "/UltraGene/assets/js/18c41134.25a16abe.js"
+        }
+      ]
+    },
+    "3000": {
+      "js": [
+        {
+          "file": "assets/js/1ab9e9f1.88b71d1a.js",
+          "hash": "a210bc9c41344750",
+          "publicPath": "/UltraGene/assets/js/1ab9e9f1.88b71d1a.js"
+        }
+      ]
+    },
+    "3085": {
+      "js": [
+        {
+          "file": "assets/js/1f391b9e.a1701d25.js",
+          "hash": "7ceb50c5d9d8b2fa",
+          "publicPath": "/UltraGene/assets/js/1f391b9e.a1701d25.js"
+        }
+      ]
+    },
+    "3089": {
+      "js": [
+        {
+          "file": "assets/js/a6aa9e1f.9b842aa4.js",
+          "hash": "a0ef4ea07813b65b",
+          "publicPath": "/UltraGene/assets/js/a6aa9e1f.9b842aa4.js"
+        }
+      ]
+    },
+    "3514": {
+      "js": [
+        {
+          "file": "assets/js/73664a40.e962c4f5.js",
+          "hash": "031e4427e4ebe4da",
+          "publicPath": "/UltraGene/assets/js/73664a40.e962c4f5.js"
+        }
+      ]
+    },
+    "3608": {
+      "js": [
+        {
+          "file": "assets/js/9e4087bc.4c67257b.js",
+          "hash": "9f4582ff3ce932ac",
+          "publicPath": "/UltraGene/assets/js/9e4087bc.4c67257b.js"
+        }
+      ]
+    },
+    "3792": {
+      "js": [
+        {
+          "file": "assets/js/dff1c289.11ed1fa6.js",
+          "hash": "6ba7f67be74e95e0",
+          "publicPath": "/UltraGene/assets/js/dff1c289.11ed1fa6.js"
+        }
+      ]
+    },
+    "4013": {
+      "js": [
+        {
+          "file": "assets/js/01a85c17.6254cf63.js",
+          "hash": "d76f3321c17056ad",
+          "publicPath": "/UltraGene/assets/js/01a85c17.6254cf63.js"
+        }
+      ]
+    },
+    "4193": {
+      "js": [
+        {
+          "file": "assets/js/f55d3e7a.c2526552.js",
+          "hash": "55d5fe1c2bf67ba3",
+          "publicPath": "/UltraGene/assets/js/f55d3e7a.c2526552.js"
+        }
+      ]
+    },
+    "4195": {
+      "js": [
+        {
+          "file": "assets/js/c4f5d8e4.a1a620cf.js",
+          "hash": "fe00460fd0154e7b",
+          "publicPath": "/UltraGene/assets/js/c4f5d8e4.a1a620cf.js"
+        }
+      ]
+    },
+    "4368": {
+      "js": [
+        {
+          "file": "assets/js/a94703ab.fd0da9db.js",
+          "hash": "8e3f1abe2f734274",
+          "publicPath": "/UltraGene/assets/js/a94703ab.fd0da9db.js"
+        }
+      ]
+    },
+    "4607": {
+      "js": [
+        {
+          "file": "assets/js/533a09ca.b34c2556.js",
+          "hash": "8af81eaeefc320d9",
+          "publicPath": "/UltraGene/assets/js/533a09ca.b34c2556.js"
+        }
+      ]
+    },
+    "5589": {
+      "js": [
+        {
+          "file": "assets/js/5c868d36.7dfaf848.js",
+          "hash": "fb93afe703a5f398",
+          "publicPath": "/UltraGene/assets/js/5c868d36.7dfaf848.js"
+        }
+      ]
+    },
+    "6103": {
+      "js": [
+        {
+          "file": "assets/js/ccc49370.a8ab3f84.js",
+          "hash": "81cf3a64587d33fe",
+          "publicPath": "/UltraGene/assets/js/ccc49370.a8ab3f84.js"
+        }
+      ]
+    },
+    "6158": {
+      "js": [
+        {
+          "file": "assets/js/7ecfcd19.03a8548d.js",
+          "hash": "44a1a7598b7dfd05",
+          "publicPath": "/UltraGene/assets/js/7ecfcd19.03a8548d.js"
+        }
+      ]
+    },
+    "6504": {
+      "js": [
+        {
+          "file": "assets/js/822bd8ab.3ba8b5e8.js",
+          "hash": "2a39613c23422687",
+          "publicPath": "/UltraGene/assets/js/822bd8ab.3ba8b5e8.js"
+        }
+      ]
+    },
+    "6755": {
+      "js": [
+        {
+          "file": "assets/js/e44a2883.7634ade6.js",
+          "hash": "c60f26203d22a1bf",
+          "publicPath": "/UltraGene/assets/js/e44a2883.7634ade6.js"
+        }
+      ]
+    },
+    "7414": {
+      "js": [
+        {
+          "file": "assets/js/393be207.28af7cbf.js",
+          "hash": "a9c2133c4bf7f28d",
+          "publicPath": "/UltraGene/assets/js/393be207.28af7cbf.js"
+        }
+      ]
+    },
+    "7701": {
+      "js": [
+        {
+          "file": "assets/js/2ac211f9.aa2068b6.js",
+          "hash": "e57d03e7e46f9f98",
+          "publicPath": "/UltraGene/assets/js/2ac211f9.aa2068b6.js"
+        }
+      ]
+    },
+    "7752": {
+      "js": [
+        {
+          "file": "assets/js/2322c2ce.eba11435.js",
+          "hash": "88ca6ee2bf56070b",
+          "publicPath": "/UltraGene/assets/js/2322c2ce.eba11435.js"
+        }
+      ]
+    },
+    "7918": {
+      "js": [
+        {
+          "file": "assets/js/17896441.9b9bda0e.js",
+          "hash": "2c3fd54f311ded77",
+          "publicPath": "/UltraGene/assets/js/17896441.9b9bda0e.js"
+        }
+      ]
+    },
+    "8518": {
+      "js": [
+        {
+          "file": "assets/js/a7bd4aaa.50fb155a.js",
+          "hash": "4f45274ad213f7af",
+          "publicPath": "/UltraGene/assets/js/a7bd4aaa.50fb155a.js"
+        }
+      ]
+    },
+    "8610": {
+      "js": [
+        {
+          "file": "assets/js/6875c492.baba4264.js",
+          "hash": "73d7df93d09648aa",
+          "publicPath": "/UltraGene/assets/js/6875c492.baba4264.js"
+        }
+      ]
+    },
+    "8636": {
+      "js": [
+        {
+          "file": "assets/js/f4f34a3a.dd72d245.js",
+          "hash": "b3f2308b634aad58",
+          "publicPath": "/UltraGene/assets/js/f4f34a3a.dd72d245.js"
+        }
+      ]
+    },
+    "8818": {
+      "js": [
+        {
+          "file": "assets/js/1e4232ab.aa4d9bb9.js",
+          "hash": "845e094ab75b4f6e",
+          "publicPath": "/UltraGene/assets/js/1e4232ab.aa4d9bb9.js"
+        }
+      ]
+    },
+    "8935": {
+      "js": [
+        {
+          "file": "assets/js/b8556787.8fb9cd6a.js",
+          "hash": "1eb8bf82c2939f92",
+          "publicPath": "/UltraGene/assets/js/b8556787.8fb9cd6a.js"
+        }
+      ]
+    },
+    "9003": {
+      "js": [
+        {
+          "file": "assets/js/925b3f96.57e86756.js",
+          "hash": "0216a27937a8866f",
+          "publicPath": "/UltraGene/assets/js/925b3f96.57e86756.js"
+        }
+      ]
+    },
+    "9642": {
+      "js": [
+        {
+          "file": "assets/js/7661071f.07fc2644.js",
+          "hash": "f8d97240519a6040",
+          "publicPath": "/UltraGene/assets/js/7661071f.07fc2644.js"
+        }
+      ]
+    },
+    "9661": {
+      "js": [
+        {
+          "file": "assets/js/5e95c892.1db03320.js",
+          "hash": "4788790d4c2b3417",
+          "publicPath": "/UltraGene/assets/js/5e95c892.1db03320.js"
+        }
+      ]
+    },
+    "9671": {
+      "js": [
+        {
+          "file": "assets/js/0e384e19.6805d228.js",
+          "hash": "dc71ed2e8ecca68d",
+          "publicPath": "/UltraGene/assets/js/0e384e19.6805d228.js"
+        }
+      ]
+    },
+    "9677": {
+      "js": [
+        {
+          "file": "assets/js/9677.884c504a.js",
+          "hash": "bf49968dff341cb9",
+          "publicPath": "/UltraGene/assets/js/9677.884c504a.js"
+        }
+      ]
+    },
+    "9817": {
+      "js": [
+        {
+          "file": "assets/js/14eb3368.72a1d91f.js",
+          "hash": "e5a99c5342ffc473",
+          "publicPath": "/UltraGene/assets/js/14eb3368.72a1d91f.js"
+        }
+      ]
+    }
+  }
+}
