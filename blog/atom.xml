@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://your-docusaurus-site.example.com/UltraGene/blog</id>
-    <title>testUW CSE 583 Course Project | UltraGene Blog</title>
+    <title>UW CSE 583 Course Project | UltraGene Blog</title>
     <updated>2021-08-26T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://your-docusaurus-site.example.com/UltraGene/blog"/>
-    <subtitle>testUW CSE 583 Course Project | UltraGene Blog</subtitle>
+    <subtitle>UW CSE 583 Course Project | UltraGene Blog</subtitle>
     <icon>https://your-docusaurus-site.example.com/UltraGene/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
