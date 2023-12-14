@@ -144,5 +144,3 @@ The main goal is to provide users with a comprehensive understanding of their ge
    - Expand the data input compatibility to accept various formats.
    - Move beyond exclusive support for 23andMe data.
 
-**How UltraGene started and how it landed :)**
-![Update Image](img/update.png)
